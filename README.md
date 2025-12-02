@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+Course Builder Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A lightweight and flexible platform for creating, managing, and delivering course content.
+Built using Node.js, Express, and EJS, this project provides a foundation for building scalable learning or content-delivery applications.
 
-## Available Scripts
+🚀 Features
 
-In the project directory, you can run:
+📦 Modular project structure
 
-### `npm start`
+🖥️ Server-side rendering using EJS templates
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+📝 Supports form submission with express.urlencoded()
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+📂 Static file handling for CSS, JS, and assets
 
-### `npm test`
+⚡ Fast and minimal Express server setup
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🧩 Easy to extend with routes, APIs, and database support
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🛠️ Installation & Setup
+1. Clone the repository
+ git clone https://github.com/your-username/course-builder.git
+ cd course-builder
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Install dependencies
+ npm install
 
-### `npm run eject`
+3. Start the server
+ node index.js
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Visit the app
+ http://localhost:8001
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🧩 Tech Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+ Node.js
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+ Express.js
 
-## Learn More
+ EJS (Embedded JavaScript Templates)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ HTML / CSS / JS
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🛠️ Scripts
+Command	Description
+npm start	Runs the server
+node index.js	Starts backend manually
+🤝 Contributing
 
-### Code Splitting
+Contributions, issues, and feature requests are welcome.
+Feel free to open a pull request or raise an issue.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+📄 License
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License — free to modify and use.
