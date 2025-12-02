@@ -21,7 +21,7 @@ Built using Node.js, Express, and EJS, this project provides a foundation for bu
 
 🛠️ Installation & Setup
 1. Clone the repository
- git clone https://github.com/your-username/course-builder.git
+ git clone https://github.com/thekarannagpal/course-builder.git
  cd course-builder
 
 2. Install dependencies
